@@ -145,32 +145,6 @@ function Home() {
         </div>
       </section>
 
-      <section id="farmers" className="site-shell py-16 md:py-20 xl:py-24">
-        <div className="grid gap-10 lg:grid-cols-2 lg:items-center">
-          <div>
-            <p className="section-title">We Support Farmers</p>
-            <p className="mt-6 leading-8 text-slate-700">
-              We purchase coconuts directly from farmers with transparent pricing and timely payments.
-            </p>
-            <ul className="mt-8 space-y-3 text-slate-600">
-              {['Best Market Price', 'Quick Payment', 'Long-Term Partnership', 'Easy Selling Process', 'No Middlemen'].map((item) => (
-                <li key={item} className="flex gap-3 text-base">
-                  <span aria-hidden="true" className="mt-1 text-brand-green">&bull;</span>
-                  <span>{item}</span>
-                </li>
-              ))}
-            </ul>
-            <a href="/contact" className="mt-8 inline-flex rounded-full bg-brand-green px-7 py-3 text-sm font-semibold text-white transition hover:bg-emerald-700">
-              Sell Your Coconut
-            </a>
-          </div>
-          <div className="grid gap-6 sm:grid-cols-2">
-            <div className="h-72 rounded-[2rem] bg-[url('https://images.unsplash.com/photo-1520275124448-0091954a16f6?auto=format&fit=crop&w=900&q=80')] bg-cover bg-center"></div>
-            <div className="h-72 rounded-[2rem] bg-[url('https://images.unsplash.com/photo-1518609878373-06d740f60d8b?auto=format&fit=crop&w=900&q=80')] bg-cover bg-center"></div>
-          </div>
-        </div>
-      </section>
-
       <section className="bg-white py-16 md:py-20 xl:py-24">
         <div className="site-shell">
           <div className="mb-10 text-center">
@@ -203,3 +177,4 @@ function Home() {
 }
 
 export default Home;
+
