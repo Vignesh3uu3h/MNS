@@ -5,7 +5,7 @@ const coconutTypes = ['Mature Coconut', 'Tender Coconut', 'Green Coconut', 'Dry 
 const workerTabs = ['Dashboard', 'Workers'];
 
 const initialEntries = [
-  { worker: 'Ravi', quantity: 84, type: 'Mature Coconut', rate: 12, date: '2026-08-07' },
+  { worker: 'Ravi', quantity: 84, type: 'Mature Coconut', rate: 13, date: '2026-08-07' },
   { worker: 'Priya', quantity: 68, type: 'Tender Coconut', rate: 11, date: '2026-08-07' },
   { worker: 'Anil', quantity: 56, type: 'Green Coconut', rate: 10, date: '2026-08-06' },
   { worker: 'Geeta', quantity: 73, type: 'Mature Coconut', rate: 12, date: '2026-08-05' },

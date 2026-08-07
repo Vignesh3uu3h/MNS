@@ -67,43 +67,7 @@ function Home() {
         </div>
       </section>
 
-      <section id="about" className="site-shell py-16 md:py-20 xl:py-24">
-        <div className="grid gap-10 lg:grid-cols-2 lg:items-center">
-          <div>
-            <p className="section-title">About MSN Traders</p>
-            <p className="mt-6 max-w-2xl leading-8 text-slate-700">
-              MSN Traders is a coconut-only specialist focused on sourcing premium coconuts directly from farmers and delivering them with care across India.
-            </p>
-            <p className="mt-4 max-w-2xl leading-8 text-slate-700">
-              We grade, pack, and supply coconuts with farm-first quality standards, ensuring every shipment is fresh, reliable, and coconut-centric.
-            </p>
-            <div className="mt-8 grid gap-4 sm:grid-cols-3">
-              <div className="rounded-3xl border border-slate-200 bg-white p-4 shadow-sm">
-                <p className="font-semibold">Company Image</p>
-              </div>
-              <div className="rounded-3xl border border-slate-200 bg-white p-4 shadow-sm">
-                <p className="font-semibold">Warehouse Image</p>
-              </div>
-              <div className="rounded-3xl border border-slate-200 bg-white p-4 shadow-sm">
-                <p className="font-semibold">Farmer Image</p>
-              </div>
-            </div>
-          </div>
-          <div className="grid gap-4 sm:grid-cols-2">
-            <div className="h-full overflow-hidden rounded-[2rem] bg-white shadow-lg">
-              <img src="https://images.unsplash.com/photo-1519741496659-0cdd1b1e4ad2?auto=format&fit=crop&w=900&q=80" alt="Farmers" className="h-full w-full object-cover" />
-            </div>
-            <div className="grid gap-4">
-              <div className="h-60 overflow-hidden rounded-[2rem] bg-white shadow-lg">
-                <img src="https://images.unsplash.com/photo-1583820288368-1370bbeeb8ae?auto=format&fit=crop&w=900&q=80" alt="Warehouse" className="h-full w-full object-cover" />
-              </div>
-              <div className="h-60 overflow-hidden rounded-[2rem] bg-white shadow-lg">
-                <img src="https://images.unsplash.com/photo-1530224264768-7ff8c1789d79?auto=format&fit=crop&w=900&q=80" alt="Coconut Farm" className="h-full w-full object-cover" />
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+      
 
       <section id="products" className="site-shell py-16 md:py-20 xl:py-24">
         <div className="mb-10 text-center">
@@ -173,6 +137,44 @@ function Home() {
       </section>
 
     </main>
+    
+    <section id="about" className="site-shell py-16 md:py-20 xl:py-24">
+      <div className="grid gap-10 lg:grid-cols-2 lg:items-center">
+        <div>
+          <p className="section-title">About MSN Traders</p>
+          <p className="mt-6 max-w-2xl text-slate-700 leading-8">
+            MSN Traders is India's coconut procurement specialist, sourcing premium coconuts directly from trusted growers. We apply strict quality grading, ethical pricing for farmers, and reliable logistics to ensure freshness and traceability across every shipment.
+          </p>
+          <p className="mt-4 max-w-2xl text-slate-700 leading-8">
+            Our farm-first approach combines fair trade with scalable supply chains — helping farmers receive timely payments while delivering consistent quality to buyers and exporters.
+          </p>
+          <div className="mt-8 grid gap-4 sm:grid-cols-3">
+            <div className="rounded-3xl border border-slate-200 bg-white p-4 shadow-sm">
+              <p className="font-semibold">Trusted Farmers</p>
+            </div>
+            <div className="rounded-3xl border border-slate-200 bg-white p-4 shadow-sm">
+              <p className="font-semibold">Quality Grading</p>
+            </div>
+            <div className="rounded-3xl border border-slate-200 bg-white p-4 shadow-sm">
+              <p className="font-semibold">Reliable Delivery</p>
+            </div>
+          </div>
+        </div>
+        <div className="grid gap-4 sm:grid-cols-2">
+          <div className="h-full overflow-hidden rounded-[2rem] bg-white shadow-lg">
+            <img src="https://images.unsplash.com/photo-1519741496659-0cdd1b1e4ad2?auto=format&fit=crop&w=900&q=80" alt="Farmers" className="h-full w-full object-cover" />
+          </div>
+          <div className="grid gap-4">
+            <div className="h-60 overflow-hidden rounded-[2rem] bg-white shadow-lg">
+              <img src="https://images.unsplash.com/photo-1583820288368-1370bbeeb8ae?auto=format&fit=crop&w=900&q=80" alt="Warehouse" className="h-full w-full object-cover" />
+            </div>
+            <div className="h-60 overflow-hidden rounded-[2rem] bg-white shadow-lg">
+              <img src="https://images.unsplash.com/photo-1530224264768-7ff8c1789d79?auto=format&fit=crop&w=900&q=80" alt="Coconut Farm" className="h-full w-full object-cover" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
   );
 }
 
